@@ -1,0 +1,11 @@
+# [Day 2] Uniform replay — fixed number of frames stored per video.
+method: uniform
+seed: 0
+feature_cache_dir: cache/features
+splits_dir: data/splits
+num_tasks: 3
+frames_per_video: 5        # fixed K; total_stored_frames = K * num_videos_seen_so_far
+epochs_per_task: 10
+lr: 0.001
+batch_size: 32
+output_dir: results/runs/uniform

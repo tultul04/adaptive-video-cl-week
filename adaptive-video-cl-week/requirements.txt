@@ -1,0 +1,10 @@
+torch>=2.1
+open_clip_torch>=2.24
+opencv-python-headless>=4.9
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pyyaml>=6.0
+tqdm>=4.66
+matplotlib>=3.8
+Pillow>=10.0

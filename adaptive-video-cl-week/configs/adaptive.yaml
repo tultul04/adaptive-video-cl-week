@@ -1,0 +1,16 @@
+# [Day 3/4] Adaptive replay — variable frames per video, fixed total budget.
+# total_stored_frames MUST equal uniform.yaml's (frames_per_video * num_videos_seen)
+# at every point in training, so the two methods are compared at equal memory cost.
+method: adaptive
+seed: 0
+feature_cache_dir: cache/features
+splits_dir: data/splits
+num_tasks: 3
+total_stored_frames: null   # set on Day 4 to match uniform.yaml's total exactly
+b_min: 2                    # minimum frames kept per video
+b_max: 10                   # maximum frames kept per video
+alpha: 0.5                  # S(v) = alpha * diversity(v) + (1 - alpha) * temporal_change(v)
+epochs_per_task: 10
+lr: 0.001
+batch_size: 32
+output_dir: results/runs/adaptive

@@ -1,0 +1,11 @@
+# [Day 2] Sequential fine-tuning baseline — no replay memory at all.
+method: finetune
+seed: 0
+feature_cache_dir: cache/features
+splits_dir: data/splits
+num_tasks: 3
+total_stored_frames: 0     # no memory buffer for this method
+epochs_per_task: 10
+lr: 0.001
+batch_size: 32
+output_dir: results/runs/finetune
