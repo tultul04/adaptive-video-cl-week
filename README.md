@@ -1,5 +1,5 @@
 # Adaptive Frame Budgeting for Continual Video Learning
-### A 1-week proof-of-concept, built toward the KAUST "Next Generation Continual Learning" project (IVUL, Prof. Bernard Ghanem)
+### A  proof-of-concept, built toward the  "Next Generation Continual Learning" 
 
 > **Status: proof-of-concept.** This is a scaled-down, single-seed pilot built in one week by two people, not a full study. It is designed to test one specific comparison cleanly rather than to be comprehensive. See [Limitations](#limitations) for exactly what is and isn't covered, and [Full Project Plan](#full-project-plan) for what this would grow into.
 
