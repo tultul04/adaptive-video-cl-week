@@ -1,0 +1,67 @@
+{
+  "seed": 0,
+  "num_classes": 15,
+  "classes_per_task": 5,
+  "classes": {
+    "CricketShot": {
+      "label": 2,
+      "task_id": 0
+    },
+    "BasketballDunk": {
+      "label": 0,
+      "task_id": 0
+    },
+    "Billiards": {
+      "label": 1,
+      "task_id": 0
+    },
+    "PlayingPiano": {
+      "label": 4,
+      "task_id": 0
+    },
+    "Kayaking": {
+      "label": 3,
+      "task_id": 0
+    },
+    "BlowingCandles": {
+      "label": 6,
+      "task_id": 1
+    },
+    "ApplyLipstick": {
+      "label": 5,
+      "task_id": 1
+    },
+    "ThrowDiscus": {
+      "label": 8,
+      "task_id": 1
+    },
+    "Typing": {
+      "label": 9,
+      "task_id": 1
+    },
+    "MoppingFloor": {
+      "label": 7,
+      "task_id": 1
+    },
+    "BoxingPunchingBag": {
+      "label": 10,
+      "task_id": 2
+    },
+    "Surfing": {
+      "label": 14,
+      "task_id": 2
+    },
+    "PullUps": {
+      "label": 12,
+      "task_id": 2
+    },
+    "HorseRiding": {
+      "label": 11,
+      "task_id": 2
+    },
+    "Skijet": {
+      "label": 13,
+      "task_id": 2
+    }
+  }
+}
